@@ -1,0 +1,3 @@
+"ConnectionStrings": {
+  "DB_Chamados": "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=DB_gustavo;Integrated Security=True;"
+}

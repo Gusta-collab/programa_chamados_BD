@@ -33,6 +33,7 @@
             label1 = new Label();
             label2 = new Label();
             BTNlogin = new Button();
+            btnCriar = new Button();
             SuspendLayout();
             // 
             // txtSenha
@@ -84,12 +85,26 @@
             BTNlogin.UseVisualStyleBackColor = true;
             BTNlogin.Click += BTNlogin_Click;
             // 
+            // btnCriar
+            // 
+            btnCriar.BackColor = Color.RoyalBlue;
+            btnCriar.FlatStyle = FlatStyle.Flat;
+            btnCriar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            btnCriar.Location = new Point(366, 248);
+            btnCriar.Name = "btnCriar";
+            btnCriar.Size = new Size(87, 30);
+            btnCriar.TabIndex = 4;
+            btnCriar.Text = "Criar";
+            btnCriar.UseVisualStyleBackColor = false;
+            btnCriar.Click += btnCriar_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(32, 33, 36);
             ClientSize = new Size(458, 284);
+            Controls.Add(btnCriar);
             Controls.Add(BTNlogin);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -109,5 +124,6 @@
         private Label label1;
         private Label label2;
         private Button BTNlogin;
+        private Button btnCriar;
     }
 }

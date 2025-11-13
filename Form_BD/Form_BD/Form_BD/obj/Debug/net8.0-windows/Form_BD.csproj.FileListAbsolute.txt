@@ -130,8 +130,6 @@ D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Syst
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.csproj.AssemblyReference.cache
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.editarChamado.resources
-D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.Form1.resources
-D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.Form2.resources
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.Properties.Resources.resources
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.csproj.GenerateResource.cache
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.GeneratedMSBuildEditorConfig.editorconfig
@@ -144,7 +142,6 @@ D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\refint\Form_BD.dll
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.pdb
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.genruntimeconfig.cache
 D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\ref\Form_BD.dll
-D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.Login.resources
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -157,3 +154,6 @@ D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dl
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\System.Text.Json.dll
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Form_BD\Form_BD\Form_BD\bin\Debug\net8.0-windows\jsconfig1.json
+D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.CriarChamado.resources
+D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.GerenciarChamados.resources
+D:\Form_BD\Form_BD\Form_BD\obj\Debug\net8.0-windows\Form_BD.loginUser.resources

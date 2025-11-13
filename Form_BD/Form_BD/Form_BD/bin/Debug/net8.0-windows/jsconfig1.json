@@ -1,3 +1,5 @@
-"ConnectionStrings": {
-  "DB_Chamados": "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=DB_gustavo;Integrated Security=True;"
+{
+  "ConnectionStrings": {
+    "DB_Chamados": "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;"
+  }
 }

@@ -5,10 +5,10 @@ using System.Windows.Forms;
 
 namespace Form_BD
 {
-    public partial class Form2 : Form
+    public partial class GerenciarChamados : Form
     {
         string ConnectionDataBase = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
-        public Form2()
+        public GerenciarChamados()
         {
             InitializeComponent();
             CarregarChamados();
@@ -48,7 +48,7 @@ namespace Form_BD
         }
         private void CriarChamado_Click(object sender, EventArgs e)
         {
-            Form1 FormCriacao = new Form1();
+            CriarChamado FormCriacao = new CriarChamado();
             FormCriacao.ShowDialog();
         }
         private void dgvChamados_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -72,7 +72,7 @@ namespace Form_BD
             {
                 string valor = dgvChamados.Rows[e.RowIndex].Cells["causa"].Value?.ToString();
 
-                MessageBox.Show("Detalhes:" + valor);
+                MessageBox.Show(valor);
             }
         }
         private void BTNatualizar_Click(object sender, EventArgs e)

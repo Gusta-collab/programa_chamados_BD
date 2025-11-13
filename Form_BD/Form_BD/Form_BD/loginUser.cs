@@ -6,9 +6,10 @@ using System.Windows.Forms;
 
 namespace Form_BD
 {
-    public partial class Login : Form
+    public partial class loginUser : Form
     {
-        public Login()
+        private readonly string ConnectionDataBase = ConfigurationHelper.GetConnectionString("DB_Chamados");
+        public loginUser()
         {
             InitializeComponent();
             //troca os caracters por '•'
@@ -19,8 +20,6 @@ namespace Form_BD
         {
             string logins = txtUser.Text;
             string passwords = txtSenha.Text;
-
-            string ConnectionDataBase = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
 
             using (SqlConnection conexao = new SqlConnection(ConnectionDataBase))
             {
@@ -38,7 +37,7 @@ namespace Form_BD
                     if (resultado > 0)
                     {
                         MessageBox.Show("login realizado com sucesso!");
-                        Form2 listaChamados = new Form2();
+                        GerenciarChamados listaChamados = new GerenciarChamados();
                         listaChamados.ShowDialog();
                         this.Close(); // fechar tela atual
                     }
@@ -49,11 +48,8 @@ namespace Form_BD
                 }
             }
         }
-
         private void btnCriar_Click(object sender, EventArgs e)
         {
-            string ConnectionDataBase = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
-
             string logins = txtUser.Text;
             string passwords = txtSenha.Text;
 

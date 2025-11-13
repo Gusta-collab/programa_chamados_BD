@@ -1,6 +1,6 @@
 ﻿namespace Form_BD
 {
-    partial class Login
+    partial class loginUser
     {
         /// <summary>
         /// Required designer variable.

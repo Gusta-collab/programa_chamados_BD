@@ -1,6 +1,6 @@
 ﻿namespace Form_BD
 {
-    partial class Form1
+    partial class CriarChamado
     {
         /// <summary>
         /// Required designer variable.
@@ -57,7 +57,7 @@
             txtCausa.Multiline = true;
             txtCausa.Name = "txtCausa";
             txtCausa.Size = new Size(795, 196);
-            txtCausa.TabIndex = 0;
+            txtCausa.TabIndex = 3;
             txtCausa.Text = "sem internet.";
             // 
             // titulo
@@ -77,7 +77,7 @@
             txtSetor.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold);
             txtSetor.ForeColor = Color.White;
             txtSetor.FormattingEnabled = true;
-            txtSetor.Items.AddRange(new object[] { "Usinagem", "Administração", "Assistência", "Montagem", "Logística", "TI" });
+            txtSetor.Items.AddRange(new object[] { "Usinagem", "Administração", "Assistência", "Montagem", "Logística", "TI", "Projeto", "Eletromédico"});
             txtSetor.Location = new Point(12, 144);
             txtSetor.Name = "txtSetor";
             txtSetor.Size = new Size(246, 33);
@@ -103,7 +103,7 @@
             txtColaborador.Location = new Point(12, 80);
             txtColaborador.Name = "txtColaborador";
             txtColaborador.Size = new Size(246, 25);
-            txtColaborador.TabIndex = 4;
+            txtColaborador.TabIndex = 1;
             // 
             // lblSetorNome
             // 
@@ -129,14 +129,14 @@
             // 
             // Salvar
             // 
-            Salvar.BackColor = Color.FromArgb(66, 66, 66);
+            Salvar.BackColor = Color.RoyalBlue;
             Salvar.FlatStyle = FlatStyle.Popup;
             Salvar.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold);
             Salvar.ForeColor = Color.White;
             Salvar.Location = new Point(712, 179);
             Salvar.Name = "Salvar";
             Salvar.Size = new Size(88, 35);
-            Salvar.TabIndex = 8;
+            Salvar.TabIndex = 4;
             Salvar.Text = "Salvar";
             Salvar.UseVisualStyleBackColor = false;
             Salvar.Click += Salvar_Click_1;

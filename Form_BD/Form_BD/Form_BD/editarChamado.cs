@@ -67,8 +67,6 @@ namespace Form_BD
         }
         private void BTNsalvar_Click(object sender, EventArgs e)
         {
-            string ConnectionDataBase = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
-
             string IDsalvar = this.IDarmazenado;
 
             if (string.IsNullOrWhiteSpace(TBSetor.Text) ||
@@ -125,8 +123,6 @@ namespace Form_BD
 
         private void BTNexcluir_Click(object sender, EventArgs e)
         {
-            string ConnectionDataBase = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
-
             string IDdeletar = this.IDarmazenado;
 
             if (string.IsNullOrWhiteSpace(TBSetor.Text) ||
@@ -170,5 +166,12 @@ namespace Form_BD
                 }
             }
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string conexao = ConfigurationHelper.GetConnectionString("DB_Chamados");
+            MessageBox.Show("Conexão lida do JSON:\n" + conexao);
+        }
+
+
     }
 }

@@ -3,16 +3,15 @@ using Microsoft.Data.SqlClient;// Essencial para conectar ao SQL Server
 
 namespace Form_BD
 {
-    public partial class Form1 : Form
+    public partial class CriarChamado : Form
     {
-        public Form1()
+        private readonly string ConnectionDataBase = ConfigurationHelper.GetConnectionString("DB_Chamados");
+        public CriarChamado()
         {
             InitializeComponent();
         }
         private void Salvar_Click_1(object sender, EventArgs e)
         {
-            string connectionDataBase = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ti\\Documents\\PROJETO_BANCO_DE_DADOS\\BANCO_DE_DADOS\\DB_gustavo.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
-
             if ( string.IsNullOrWhiteSpace(txtColaborador.Text) ||
                 string.IsNullOrWhiteSpace(txtSetor.Text) ||
                 string.IsNullOrWhiteSpace(txtCausa.Text))
@@ -27,7 +26,7 @@ namespace Form_BD
 
             string sql = $"INSERT INTO  chamados (colaborador,setor,causa) VALUES (@colaborador, @setor, @causa)";
 
-            using (SqlConnection conexao = new SqlConnection(connectionDataBase))
+            using (SqlConnection conexao = new SqlConnection(ConnectionDataBase))
             {
                 using (SqlCommand comando = new SqlCommand(sql, conexao))
                 {

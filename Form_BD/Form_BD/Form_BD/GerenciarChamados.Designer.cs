@@ -1,6 +1,6 @@
 ﻿namespace Form_BD
 {
-    partial class Form2
+    partial class GerenciarChamados
     {
         /// <summary>
         /// Required designer variable.

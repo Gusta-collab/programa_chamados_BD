@@ -12,11 +12,11 @@ namespace Form_BD
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            using (var login = new Login())
+            using (var login = new loginUser())
             {
                 if(login.ShowDialog() == DialogResult.OK)
                 {
-                    Application.Run(new Form2());
+                    Application.Run(new GerenciarChamados());
                 }
             }
         }

@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Form_BD\\Form_BD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\gerenciarchamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\gerenciarchamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\criarchamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\criarchamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|solutionrelative:form_bd\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D33FFD7C-72A4-435D-B855-93BB2B104497}|Form_BD\\Form_BD.csproj|d:\\form_bd\\form_bd\\form_bd\\editarchamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Form_BD\\Form_BD\\SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Form_BD\\Form_BD\\SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,6 +40,20 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "loginUser.cs",
+              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\loginUser.cs",
+              "RelativeDocumentMoniker": "Form_BD\\loginUser.cs",
+              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\loginUser.cs",
+              "RelativeToolTip": "Form_BD\\loginUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:09:23.234Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -54,40 +68,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\Login.cs",
-              "RelativeDocumentMoniker": "Form_BD\\Login.cs",
-              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\Login.cs",
-              "RelativeToolTip": "Form_BD\\Login.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwBwAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T14:09:23.234Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\Class1.cs",
-              "RelativeDocumentMoniker": "Form_BD\\Class1.cs",
-              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\Class1.cs",
-              "RelativeToolTip": "Form_BD\\Class1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAIAwwB4AAAAIAAAAAAAAAA==",
+              "Title": "GerenciarChamados.cs",
+              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\GerenciarChamados.cs",
+              "RelativeDocumentMoniker": "Form_BD\\GerenciarChamados.cs",
+              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\GerenciarChamados.cs",
+              "RelativeToolTip": "Form_BD\\GerenciarChamados.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwEoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:46:22.156Z",
+              "WhenOpened": "2025-11-13T16:45:26.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\Form1.cs",
-              "RelativeDocumentMoniker": "Form_BD\\Form1.cs",
-              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\Form1.cs",
-              "RelativeToolTip": "Form_BD\\Form1.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CriarChamado.cs",
+              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\CriarChamado.cs",
+              "RelativeDocumentMoniker": "Form_BD\\CriarChamado.cs",
+              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\CriarChamado.cs",
+              "RelativeToolTip": "Form_BD\\CriarChamado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:26:55.092Z",
               "EditorCaption": ""
@@ -95,31 +95,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Login.cs [Projeto]",
-              "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\Login.cs",
-              "RelativeDocumentMoniker": "Form_BD\\Login.cs",
-              "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\Login.cs [Projeto]",
-              "RelativeToolTip": "Form_BD\\Login.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:02:02.893Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "editarChamado.cs",
               "DocumentMoniker": "D:\\Form_BD\\Form_BD\\Form_BD\\editarChamado.cs",
               "RelativeDocumentMoniker": "Form_BD\\editarChamado.cs",
               "ToolTip": "D:\\Form_BD\\Form_BD\\Form_BD\\editarChamado.cs",
               "RelativeToolTip": "Form_BD\\editarChamado.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAIwJUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAIwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T12:26:16.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SQLQuery3.sql ",
               "DocumentMoniker": "D:\\Form_BD\\Form_BD\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "SQLQuery3.sql",
